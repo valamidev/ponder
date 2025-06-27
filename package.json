@@ -42,5 +42,14 @@
   },
   "engines": {
     "node": ">=18.14"
-  }
+  },
+  "files": [
+    "packages/core/dist",
+    "packages/core/src/**/*.ts",
+    "!packages/core/src/_test/**/*",
+    "!packages/core/**/*.test.ts",
+    "!packages/core/**/*.test-d.ts",
+    "!packages/core/**/*.tsbuildinfo",
+    "packages/core/CHANGELOG.md"
+  ]
 }
